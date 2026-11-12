@@ -1,0 +1,113 @@
+header{
+    background-image: url(Logó.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+body {
+    background-color: #0d0d0d;
+    text-align: right;
+}
+
+h1 {
+    color: black;
+}
+
+ul {
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 3px;
+    list-style: none;
+    float: right;
+}
+
+li {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    
+}
+
+li a{
+    color: #8c6c30;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    
+}
+
+h1{
+    padding: 15px;
+    text-align: left;
+    font-size: 40px;
+    color: #8c6c30;
+}
+ p{
+    max-width: 600px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin: auto 0 auto 0;
+    font-size: 22px;
+    color: #8c6c30;
+ }
+
+ hr{
+    background-color: white;
+    border: none;
+    height: 2px;
+ }
+
+/* Táblázat */
+
+ .nyitvatartas {
+    max-width: 450px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+    color: white;
+}
+
+th {
+    background-color: #020974;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+
+
+
